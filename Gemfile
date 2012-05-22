@@ -8,11 +8,11 @@ gem 'json'
 gem 'jquery-rails'
 gem 'thin'
 gem "heroku"
+gem 'less-rails-bootstrap'
+gem 'less-rails-bootswatch'
 
 group :assets do
   gem 'coffee-rails'
   gem 'uglifier', '>= 1.0.3'
   gem 'therubyracer'
-  gem 'less-rails-bootstrap'
-  gem 'less-rails-bootswatch'
 end
