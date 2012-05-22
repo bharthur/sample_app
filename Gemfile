@@ -10,9 +10,7 @@ gem 'thin'
 gem "heroku"
 gem 'less-rails-bootstrap'
 gem 'less-rails-bootswatch'
+gem 'coffee-rails'
+gem 'uglifier', '>= 1.0.3'
+gem 'therubyracer'
 
-group :assets do
-  gem 'coffee-rails'
-  gem 'uglifier', '>= 1.0.3'
-  gem 'therubyracer'
-end
