@@ -13,7 +13,10 @@ class HomeController < ApplicationController
   	@theme.save
   	redirect_to "/"
   end
-
-
+  
+  def create_name
+  	Theme.create
+  	redirect_to "/"
+  end
 
 end
