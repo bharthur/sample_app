@@ -16,7 +16,4 @@
 //= require twitter/bootstrap
 
 
-$(document).ready(function(){
-$('.dropdown-toggle').dropdown();
-});
 
